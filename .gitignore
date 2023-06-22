@@ -1,0 +1,20 @@
+## HEADER from file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/user-manual.html#manipulating-branches
+## Lines starting with '#' are considered comments.
+## Ignore any file named foo.txt.
+#foo.txt
+## Ignore (generated) html files,
+#*.html
+## except foo.html which is maintained by hand.
+#!foo.html
+## Ignore objects and archives.
+#*.[oa]
+/examples
+/figures
+/oldstuff
+/rStan-example_George
+/model/fit_PRT_ddm_final_fb1.rds
+/model/fit_PRT_ddm_final_fb2.rds
+/model/fit_PRT_ddm_final_fb3.rds
+/model/fit_PRT_ddm_final_fb4.rds
+results_preliminary.pptx
+results_preliminary_v2.pptx
