@@ -3,12 +3,11 @@ rm(list=ls())
 
 
 ## set working directory
-wdir = "C:/Users/wurmf/Dropbox/GitHub/rddm/" #office laptop
-#wdir = "D:/Dropbox/GitHub/rddm/" #home desktop
+wdir = "C:/Users/wurmf/Dropbox/GitHub/PRT_ddm_online/"
 setwd(wdir)
 
 ## load behavioral data
-fn = paste(wdir,"PRTdata.csv",sep = "")
+fn = paste(wdir,"data/PRTdata.csv",sep = "")
 df = read.csv(fn)
 
 ## get only relevant variables

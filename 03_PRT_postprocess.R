@@ -3,7 +3,7 @@ rm(list=ls())
 
 
 ## set working directory
-wdir = "C:/Users/wurmf/Dropbox/Github/PRT_ddm/"
+wdir = "C:/Users/wurmf/Dropbox/Github/PRT_ddm_online/"
 # wdir = "D:/Dropbox/GitHub/rddm/" #home desktop
 setwd(wdir)
 
